@@ -5,7 +5,6 @@ CREATE USER 'ssm'@'%' IDENTIFIED BY 'ssm';
 GRANT ALL PRIVILEGES ON ssm.* TO 'ssm'@'%';
 FLUSH PRIVILEGES;
 
-
 # 创建表
 USE ssm;
 CREATE TABLE `sys_user` (
